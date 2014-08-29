@@ -1,0 +1,107 @@
+@font-face {
+    font-family: elegantlux;
+    src: url(ElegantLux-Mager.otf);
+}
+
+body
+{
+	margin-top: -21px !important;
+	color: #0033CC;
+	font-family: elegantlux;
+	background-color: #E6E6E6;
+}
+
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+ul li
+{
+	display: inline;
+}
+li
+{
+	margin: 2em 1em;
+	list-style-type: none;
+}
+
+#header
+{
+	background-color: #B2B2B2;
+	opacity: 0.9;
+	position: fixed;
+	height: 8em;
+	width: 100%;
+	display: block;
+	z-index: 5;
+}
+#title
+{
+	margin-left: 3em;
+}
+#head-links
+{
+	float: right;
+	margin-right: 3em;
+}
+
+#body
+{
+	top: 10em;
+	position: relative;
+	width: 100%
+}
+
+#posts
+{
+	width: 50%;
+	left: 23%;
+	position: absolute;
+	display: inline-block;
+}
+#posts-heading
+{
+
+}
+.post-header
+{
+	font-size: 150%;
+	margin: 3em 1em ;
+}
+.post-content
+{
+	margin: 0 3em;
+	padding-bottom: 2em;
+}
+.card
+{
+	margin: 1em 1em;
+	z-index: 2;
+	background-color: white;
+}
+.shadow
+{
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow:    0px 0px 30px 0px rgba(0, 0, 0, 0.6);
+	box-shadow:         0px 0px 30px 0px rgba(0, 0, 0, 0.6);
+}
+
+#widget1
+{
+	width: 19%;
+	float: right;
+	position: absolute;
+	display: inline-block;
+	background-color: #0066CC;
+}
+
+#widget2
+{
+	width: 19%;
+	right: 0px;
+	float: right;
+	position: absolute;
+	display: inline-block;
+	background-color: #0066CC;
+}
